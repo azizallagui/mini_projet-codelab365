@@ -28,28 +28,6 @@
 
   </head>
   <body>
-
-  <?php      
-        if(isset($_GET['error1']))
-    {
-    ?>
-       <div class="container">
-    
-    <div class="row">
-      <div class="col-12">
-        <div class="section-title-header text-center">
-        <h6 class="text-danger mt-1" style="font-weight: 80; font-size: 1.1em">Voues etes déja inscrit(e) à cet événement.</h6>
-        </div>
-      </div>
-    </div>
-    </div>
-      
-
-    <?php 
-
-    }
-   ?>
-
 <section id="services" class="services section-padding">
       <div class="container">
     
