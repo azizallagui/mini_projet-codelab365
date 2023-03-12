@@ -28,7 +28,7 @@ include_once 'EvenementC.php';
             );
             $EvenementC->ajouterEvenement($evenement);
             var_dump($evenement);
-            header('Location:../View/Backend/liste_evenements.php');
+            header('Location:../View/office/liste_evenements.php');
         }
         else
             $error = "Missing information";

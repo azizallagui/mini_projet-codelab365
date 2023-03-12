@@ -28,7 +28,7 @@
     <!-- Responsive Style -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <!--<link rel="stylesheet"  href="event.css">-->
-<link href="inscription.css" rel="stylesheet" /> 
+<link href="assets/inscription.css" rel="stylesheet" /> 
 </head>
 <body>
 
@@ -38,7 +38,7 @@
 
  <form class="d-flex" action=""  method="POST">
             <input class="form-control me-2" type="text" name="nom_event"  placeholder="nom_event" aria-label="Search">
-		   <input class="form-control me-2" type="text" name="information_event"  placeholder="information_event" aria-label="Search">
+		   <input class="form-control me-2" type="text" name="adresse_event"  placeholder="adresse_event" aria-label="Search">
                       <input class="btn btn" style="background-color:#fd6c9e ; color : white" type="submit" name="recherche" value="Recherche"/>
                  </form> 
  
@@ -46,7 +46,7 @@
  <table class='table'><thead>
  <tr><th scope='col' > id </th>
  <th scope='col'> Nom event </th>
- <th scope='col'> information_event </th>
+ <th scope='col'> adresse_event </th>
 
  <th scope='col'> date_debut </th>
 
@@ -130,7 +130,7 @@
  </textarea>
               </div>
             </div>
-          <input class="bouton" type="submit" style="background-color:#fd6c9e;color:white" value="ajOuter un event" />
+          <input class="bouton" type="submit" style="background-color:#fd6c9e;color:white" value="ajouter un event" />
 		  
         </form>
       </div>

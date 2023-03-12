@@ -28,7 +28,7 @@
                  $_POST['information_event']
              );
             $EvenementC->modifierEvenement($evenement, $_POST["id_event"]);
-            header('Location: ../View/Backend/liste_evenements.php');
+            header('Location: ../View/office/liste_evenements.php');
         }
         else
             $error = "Missing information";

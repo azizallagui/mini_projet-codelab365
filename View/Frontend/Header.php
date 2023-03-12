@@ -11,7 +11,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary " >
         <div class="container">
           
-          <a class="" href="#" ><img src="Logo.png" width="50px"/></a>
+          <a class="" href="#" ><img src="assets/Logo.png" width="50px"/></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -26,8 +26,7 @@
               </li>
             </ul>
             <form style="position: absolute;right: 250px;display: flex;margin-top: 10px;">
-              <input style="width:250px" class="form-control me-2" type="search" placeholder="recherche" aria-label="Search">
-              <button class="btn btn" style="background-color:#fd6c9e ; color : white"type="submit">Chercher</button>
+              <a class="btn btn" style="background-color:#fd6c9e ; color : white"href="../office/liste_evenements.php" type="submit">admine</a>
             </form>
           </div>
         </div>

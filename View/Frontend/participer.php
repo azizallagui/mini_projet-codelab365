@@ -82,33 +82,19 @@
 
                          <?php
                 $date1 =$evenement['date_debut'];
-                $date2 = "2022-05-05";
+                $date2 = "2023-03-13";
                 $dateTimestamp1 = strtotime($date1);
                  $dateTimestamp2 = strtotime($date2);
 if ($dateTimestamp1 > $dateTimestamp2)
 {
   ?>
   <div class="about-text">
-    
-  <?php
-    
-    if ((!isset($_SESSION['email'])) || (empty($_SESSION['email'])))
-    {
-      ?>
-      <a class="btn btn-common btn-rm" href="connexion.php">Paticiper</a>
-      <?php
-    }
-    else
-    {
-      ?>
-  
-  <a class="btn btn-common btn-rm" href="../../Controller/ajouterParticipant.php">Paticiper</a>
+
+      <a class="btn btn-common btn-rm" href="">Paticiper</a>
   </div>
   
    <?php
-  }
 } 
-   else{
   ?>
   
 
@@ -120,10 +106,7 @@ if ($dateTimestamp1 > $dateTimestamp2)
                 
         </div>
       </div>
-      <?php
-				}
-			?>
-	            </div>
+	
             </div>
           </div>
         

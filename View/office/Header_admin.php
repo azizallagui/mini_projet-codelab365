@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="styleadmin.css">
+<link rel="stylesheet" href="assets/styleadmin.css">
 
 </head>
 
@@ -16,10 +16,9 @@
 <body>
 
 <div id="mySidebar" class="sidebar">
- <img id="logo" src="logo.png" class="mt-3" width="140px" /> 
-    <a style="margin-top:150px" href="dashboard.php">Dashboard</a>
+ <img id="logo" src="assets/logo.png" class="mt-3" width="140px" /> 
+    <a style="margin-top:150px" href="../Frontend/eventView.php">view client</a>
     <a href="liste_evenements.php">Evénements</a>
-    <a href="liste_Participants.php">participants</a>
    
    
 	
@@ -38,24 +37,6 @@
 <div class="col-lg-3 col-md-5 col-5 text-end">   
   
 </div>
-<div class="col-lg-1 col-md-2 col-2 text-end mt-1">
-  <li class="nav-item dropdown links list-unstyled">
-                <a class="nav-link fa fa fa-user text-dark mx-2 dropdown" id="userr" href="#" data-bs-toggle="dropdown"
-                   id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-                </a>
-
-                <div class="dropdown-menu mt-2" aria-labelledby="navbarDropdown" style="right: 0;left: 5">
-
-                    <a class="dropdown-item text-dark"   href="#">Compte</a>
-                    <a class="dropdown-item text-dark"   href="../Frontend/connexion.php">LogOut</a>
-         
-
-                </div>
-            </li>
-
-</div>
-
 </div>
 
 <script>
